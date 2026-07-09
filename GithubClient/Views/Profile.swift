@@ -10,10 +10,20 @@ import SwiftUI
 struct Profile: View {
     var body: some View {
         NavigationStack{
-            VStack{
-                Text("Perfiles de Usuarios")
+            VStack {
+                Text("Jennifer Balseca")
+                    .font(.title)
+                Image(uiImage: .githublogo)
+                    .resizable()
+                    .scaledToFit()
+                Text("jenniferbalseca")
+                    .font(.headline)
+                    .padding(.vertical)
+                Text("Ejemplo de BIO que va en github. Este es un ejemplo de descripción que va abajo del perfil de cada usuario. ")
+                    .font(.caption)
             }
-            .navigationTitle("Perfiles")
+            .padding()
+            .navigationTitle("Perfil de usuario")
             .navigationBarTitleDisplayMode(.inline)
         }
     }
