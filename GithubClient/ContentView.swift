@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  GithubClient
 //
-//  Created by Usuario invitado on 13/1/26.
+//  Created by Jennifer Balseca invitado on 13/1/26.
 //
 
 import SwiftUI
