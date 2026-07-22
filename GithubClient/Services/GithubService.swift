@@ -47,7 +47,7 @@ class GithubService{
                
         switch response.result {
         case .success(let repositories):
-            return repositories
+            return repositories	
         case .failure(let error):
             print("Error en el servicio de GitHub")
             print(error)
